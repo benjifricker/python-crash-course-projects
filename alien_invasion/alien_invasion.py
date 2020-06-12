@@ -128,6 +128,11 @@ class AlienInvasion:
         # Pause.
         sleep(0.5)
 
+    def _center_ship(self):
+        """Center the ship on the screen."""
+        self.rect.midbottom = self.screen_rect.midbottom
+        self.x = float(self.rect.x)
+
     def _create_fleet(self):
         """Create the fleet of aliens."""
         # Create an alien and find the number of aliens in a row.
