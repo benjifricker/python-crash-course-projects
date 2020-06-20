@@ -12,3 +12,4 @@ Project 2: Data Visualization
 June 16: Page 305 - 311
 June 17: Page 311 - 323
 June 18: Page 323 - 331
+June 19: Page 331 - 337
