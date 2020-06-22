@@ -19,7 +19,7 @@ for repo_dict in repo_dicts:
 
     owner = repo_dict['owner']['login']
     description = repo_dict['description']
-    label = f"{owner}<br/>{description}"
+    label = f"{owner}<br />{description}"
     labels.append(label)
 
 # Make visualization.
@@ -27,6 +27,7 @@ data = [{
     'type': 'bar',
     'x': repo_names,
     'y': stars,
+    'hovertext': labels,
     'marker': {
         'color': 'rgb(60, 100, 150)',
         'line': {'width': 1.5, 'color': 'rgb(25, 25, 25)'}
