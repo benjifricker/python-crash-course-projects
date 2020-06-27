@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 
 from .models import Topic
+from .forms import TopicForm
 
 def index(request):
     """The home page for Learning Log."""
