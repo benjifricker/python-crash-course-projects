@@ -63,10 +63,10 @@ def edit_entry(request, entry_id):
 
     if request.method != 'POST':
         # Initial request; pre-fill form with the current entry.
-        form = EntryForm()
+        form = EntryForm(instance=entry)
     else:
         # POST data submitted; process data.
-        form = EntryForm(data=request.POST)
+        form = EntryForm(instance=entry, data=request.POST)
         if form.is_valid():
             form.save()
             return redirect('learning_logs:topic', topic_id=topic.id)
