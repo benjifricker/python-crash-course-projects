@@ -23,3 +23,4 @@ June 24: Page 384 - 387
 June 25: Page 387 - 407
 June 27: Page 409 - 414
 June 28: Page 414 - 418
+June 29: Page 418 - 425
