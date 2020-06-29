@@ -1,3 +1,4 @@
 __pycache__
 .DS_Store
 ./web_application/.DS_STORE
+web_application/db.sqlite3
