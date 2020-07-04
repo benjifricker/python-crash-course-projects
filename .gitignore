@@ -1,6 +1,6 @@
 __pycache__
 .DS_Store
-./web_application/__pycache__/
-./web_application/ll_env/
-./web_application/.DS_STORE
+web_application/__pycache__
+web_application/ll_env
+web_application/.DS_STORE
 web_application/*.sqlite3
